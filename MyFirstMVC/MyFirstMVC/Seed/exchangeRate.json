@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "_currencyCode": "RUB",
+    "_currencyName": "Рубль",
+    "_currencyRate": "57"
+  },
+  {
+    "Id": 2,
+    "_currencyCode": "KGS",
+    "_currencyName": "Сом",
+    "_currencyRate": "68"
+  },
+  {
+    "Id": 3,
+    "_currencyCode": "EUR",
+    "_currencyName": "Евро",
+    "_currencyRate": "80.99"
+  }
+]

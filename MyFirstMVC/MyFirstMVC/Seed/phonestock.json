@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 1,
+    "PhoneId": 1,
+    "StockId": 2,
+    "Quantity": 15
+  },
+  {
+    "Id": 2,
+    "PhoneId": 3,
+    "StockId": 1,
+    "Quantity": 25
+  },
+  {
+    "Id": 3,
+    "PhoneId": 4,
+    "StockId": 3,
+    "Quantity": 0
+  },
+  {
+    "Id": 4,
+    "PhoneId": 7,
+    "StockId": 2,
+    "Quantity": 40
+  },
+  {
+    "Id": 5,
+    "PhoneId": 6,
+    "StockId": 1,
+    "Quantity": 33
+  },
+  {
+    "Id": 6,
+    "PhoneId": 5,
+    "StockId": 3,
+    "Quantity": 55
+  },
+  {
+    "Id": 7,
+    "PhoneId": 2,
+    "StockId": 2,
+    "Quantity": 75
+  },
+  {
+    "Id": 8,
+    "PhoneId": 9,
+    "StockId": 1,
+    "Quantity": 25
+  },
+  {
+    "Id": 9,
+    "PhoneId": 8,
+    "StockId": 3,
+    "Quantity": 30
+  },
+  {
+    "Id": 10,
+    "PhoneId": 10,
+    "StockId": 3,
+    "Quantity": 7
+  },
+  {
+    "Id": 11,
+    "PhoneId": 12,
+    "StockId": 2,
+    "Quantity": 24
+  }
+]

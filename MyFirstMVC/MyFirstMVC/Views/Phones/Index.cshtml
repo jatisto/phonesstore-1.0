@@ -1,0 +1,73 @@
+﻿@using Microsoft.CodeAnalysis.CSharp.Syntax
+@using MyFirstMVC.ViewModels
+
+@model IndexViewModel
+
+
+@{
+
+    ViewData["Title"] = "Home Page";
+}
+
+<br/>
+
+@using (Html.BeginForm("Index", "Phones", FormMethod.Get))
+
+{
+    @Html.Label("Name", "Модель")
+    @Html.TextBox("name", Model.Name)
+    
+    <select name="companyId" class="form-control">
+        <option></option>
+        @foreach (Company comp in Model.Companies)
+        {
+            if (Model.Company != null && Model.Company.Id == comp.Id)
+            {
+                <option value="@comp.Id" selected="selected">@comp.Name</option>
+            }
+            else
+            {
+                <option value="@comp.Id">@comp.Name</option>
+            }
+        }
+    </select>
+
+    <input type="submit" class="btn btn-success"/>
+}
+
+<br/>
+
+@using (Html.BeginForm("Checked", "Phones", FormMethod.Get))
+
+{
+    <table class="table table-bordered">
+
+        @foreach (Phone p in Model.Phones)
+        {
+            <tr>
+
+                <td>@p.Name</td>
+                <td>
+                    @Html.CheckBox("Checked", false)
+                </td>
+
+                <td>
+                    <a asp-area="" asp-controller="Phones" asp-action="Index" asp-route-companyId="@p.CompanyId">@p.Company?.Name</a>
+                </td>
+
+                <td>
+                    @p.Price $ <br>
+
+                    @(p.Price * ViewBag.RateKgs) сом
+
+
+                </td>
+
+            </tr>
+        }
+
+
+    </table>
+    <input type="submit" class="btn btn-success"/>
+}
+

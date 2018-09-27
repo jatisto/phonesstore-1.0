@@ -1,0 +1,93 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Apple iPhone 7 256Gb Red",
+    "CompanyId": 1,
+    "Price": 74400,
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Apple iPhone 6S (Space Grey, 32GB)",
+    "CompanyId": 1,
+    "Price": 30500,
+    "CategoryId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Apple iPhone X (Space Grey, 256GB)",
+    "CompanyId": 1,
+    "Price": 99999,
+    "CategoryId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "Samsung On7 Pro (Gold)",
+    "CompanyId": 2,
+    "Price": 7990,
+    "CategoryId": 2
+  },
+  {
+    "Id": 5,
+    "Name": "Samsung Galaxy On7 Prime (Gold, 4GB RAM + 64GB Memory)",
+    "CompanyId": 2,
+    "Price": 13990,
+    "CategoryId": 2
+  },
+  {
+    "Id": 6,
+    "Name": "Redmi 6 Pro (Black, 32GB)",
+    "CompanyId": 4,
+    "Price": 11499,
+    "CategoryId": 2
+  },
+  {
+    "Id": 7,
+    "Name": "Redmi Y2 (Rose Gold, 32GB)",
+    "CompanyId": 4,
+    "Price": 9999,
+    "CategoryId": 2
+  },
+  {
+    "Id": 8,
+    "Name": "LG Q6 (Black, 18:9 FullVision Display)",
+    "CompanyId": 5,
+    "Price": 11820,
+    "CategoryId": 2
+  },
+  {
+    "Id": 9,
+    "Name": "LG V30+ (18:9 OLED FullVisionTM, 128GB, Black)",
+    "CompanyId": 5,
+    "Price": 34963,
+    "CategoryId": 2
+  },
+  {
+    "Id": 10,
+    "Name": "BlackBerry Passport 32GB (White)",
+    "CompanyId": 8,
+    "Price": 26999,
+    "CategoryId": 3
+  },
+  {
+    "Id": 11,
+    "Name": "Huawei P20 Pro Blue (40MP Leica Triple Camera, 6GB+128GB)",
+    "CompanyId": 6,
+    "Price": 64999,
+    "CategoryId": 2
+  },
+  {
+    "Id": 12,
+    "Name": "Nokia 6.1 (2018) (4GB + 64GB, Blue-Gold)",
+    "CompanyId": 3,
+    "Price": 15950,
+    "CategoryId": 2
+  },
+  {
+    "Id": 13,
+    "Name": "Sony Xperia R1 Plus Dual SIM (Black)",
+    "CompanyId": 7,
+    "Price": 11899,
+    "CategoryId": 2
+  }
+]
