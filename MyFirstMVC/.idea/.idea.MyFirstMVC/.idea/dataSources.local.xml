@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="DESKTOP-A04P40V" uuid="52b37c9e-3bca-46b5-bed6-a8b3da190275">
+      <database-info product="Microsoft SQL Server" version="14.00.1000" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.1" family="MSSQL" exact-version="14.0.100">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <introspection-schemas>*:*|@:|CompanyBD:|RestoranDb:|RestoranNewDb:|SHOPBD:|Shop_BD:|WareHouse_DB:|mobilestoredb:|mobilestoredb2:|model:|msdb:|study_database:|tempdb:</introspection-schemas>
+    </data-source>
+  </component>
+</project>

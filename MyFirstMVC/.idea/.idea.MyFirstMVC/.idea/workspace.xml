@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33c11dd7-fa64-47f2-bf17-09469f8272cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/CompanyBD.Xzk8Iw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranDb.4ireJA/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/RestoranNewDb.WmFwWg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/SHOPBD.uPW9kQ/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/Shop_BD.C75t3g/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/WareHouse_DB.uk8ORQ/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/companybd.fx3Kqw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/companybd.fx3Kqw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/companybd.fx3Kqw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/master.YiqNvw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb.PSbiLQ/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/mobilestoredb2.laFijg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/model.KfszBg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/DatabaseMailUserRole.8_5cew.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentOperatorRole.0TKOXA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentReaderRole.MDWBQA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/SQLAgentUserRole.-G0QHw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/TargetServersRole.tedgoQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisadmin.hKdIaQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisltduser.nKx1mg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/db_ssisoperator.TxzNGQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/msdb.pEgzAA/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorandb.olIMrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorandb.olIMrg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorandb.olIMrg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorannewdb.eiWULA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorannewdb.eiWULA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/restorannewdb.eiWULA/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shop_bd.Kyo1ew.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shop_bd.Kyo1ew/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shop_bd.Kyo1ew/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shopbd.uAEryg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shopbd.uAEryg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/shopbd.uAEryg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/study_database.MadLHg/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_accessadmin.KqpDJg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_backupoperator.R9Ifpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_datareader.To823g.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_datawriter._tp55w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_ddladmin.hGWOrg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_denydatareader.2lWItw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_denydatawriter.iqHLwA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_owner.souIfA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/db_securityadmin.Dj5jKg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/guest.2C3iBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/tempdb.Uqu0yw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/warehouse_db.eptoNw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/warehouse_db.eptoNw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/warehouse_db.eptoNw/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/warehouse_db.eptoNw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/dataSources/52b37c9e-3bca-46b5-bed6-a8b3da190275/storage_v2/_src_/database/warehouse_db.eptoNw/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/MyFirstMVC/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/MyFirstMVC/v15/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/MyFirstMVC/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/Seed/stocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Categories/Create.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Categories/Delete.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Categories/Details.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Categories/Edit.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Categories/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Phones/Create.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Phones/Delete.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Phones/Details.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Phones/Edit.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Phones/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/404.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Stock/Create.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Stock/Details.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Stock/Edit.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Stock/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/Stock/Remove.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/MyFirstMVC.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/MyFirstMVC.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/MyFirstMVC.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/MyFirstMVC.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstMVC/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DESKTOP-A04P40V" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1578117334">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+          <entry key="cshtml" value="6" />
+          <entry key="json" value="6" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+          <entry key="JSON" value="6" />
+          <entry key="Razor" value="6" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="17" />
+          <entry key="sql" value="12" />
+          <entry key="txt" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="17" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Scratch" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1894666243">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="978" />
+          <entry key="cshtml" value="412" />
+          <entry key="json" value="307" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="978" />
+          <entry key="JSON" value="307" />
+          <entry key="Razor" value="412" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="18" />
+          <entry key="cshtml" value="2" />
+          <entry key="identity_columns" value="1" />
+          <entry key="json" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="18" />
+          <entry key="Database Element" value="1" />
+          <entry key="JSON" value="14" />
+          <entry key="Razor" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="526555957">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="309" />
+          <entry key="cshtml" value="84" />
+          <entry key="json" value="43" />
+          <entry key="sql" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="309" />
+          <entry key="JSON" value="43" />
+          <entry key="Razor" value="84" />
+          <entry key="Scratch" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="21" />
+          <entry key="cshtml" value="3" />
+          <entry key="json" value="6" />
+          <entry key="sql" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="21" />
+          <entry key="JSON" value="6" />
+          <entry key="Razor" value="3" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-217209089">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="167" />
+          <entry key="cshtml" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="167" />
+          <entry key="Razor" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+          <entry key="cshtml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+          <entry key="Razor" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyFirstMVC/Controllers/PhonesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <folding>
+                <marker date="1538038511376" expanded="false" signature="6:261" ph="..." />
+                <marker date="1538038511376" expanded="true" signature="295:6503" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="344:6501" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="469:521" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="633:2057" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="901:1101" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="1164:1337" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="1361:1507" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="1392:1493" ph="/* что сюда писать не понимаю!!! ... */" />
+                <marker date="1538038511376" expanded="true" signature="1533:1879" ph="/* Цена от до не успеваю сделать, прбовал  два инпута сделать Max Min но как их связать с ... */" />
+                <marker date="1538038511376" expanded="true" signature="2127:2337" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="2430:2812" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="2468:2531" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="2706:2769" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="2881:3014" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="3024:3233" ph="/* POST: Phones/Create ... */" />
+                <marker date="1538038511376" expanded="true" signature="3403:3768" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="3449:3621" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="3854:4258" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="3892:3955" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="4048:4111" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="4268:4477" ph="/* POST: Phones/Edit/5 ... */" />
+                <marker date="1538038511376" expanded="true" signature="4653:5506" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="4695:4758" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="4795:5359" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="4829:4964" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5017:5288" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5083:5170" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5195:5270" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5596:5978" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5634:5697" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="5872:5935" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="6153:6376" ph="{...}" />
+                <marker date="1538038511376" expanded="true" signature="6418:6495" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyFirstMVC/ViewModels/IndexViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1538038511537" expanded="false" signature="6:121" ph="..." />
+                <marker date="1538038511537" expanded="true" signature="154:516" ph="{...}" />
+                <marker date="1538038511537" expanded="true" signature="188:514" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <marker date="1538038844770" expanded="false" signature="7:72" ph="..." />
+                <marker date="1538038844770" expanded="true" signature="98:140" ph="@..." />
+                <marker date="1538038844770" expanded="true" signature="149:788" ph="@..." />
+                <marker date="1538038844770" expanded="true" signature="208:788" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="292:734" ph="&lt;select.../&gt;" />
+                <marker date="1538038844770" expanded="true" signature="373:720" ph="@..." />
+                <marker date="1538038844770" expanded="true" signature="415:720" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="495:604" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="621:710" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="797:1535" ph="@..." />
+                <marker date="1538038844770" expanded="true" signature="856:1535" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="863:1458" ph="&lt;table.../&gt;" />
+                <marker date="1538038844770" expanded="true" signature="909:1443" ph="@..." />
+                <marker date="1538038844770" expanded="true" signature="943:1443" ph="{...}" />
+                <marker date="1538038844770" expanded="true" signature="966:1433" ph="&lt;tr.../&gt;" />
+                <marker date="1538038844770" expanded="true" signature="1021:1100" ph="&lt;td.../&gt;" />
+                <marker date="1538038844770" expanded="true" signature="1118:1278" ph="&lt;td.../&gt;" />
+                <marker date="1538038844770" expanded="true" signature="1296:1414" ph="&lt;td.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PhoneId</find>
+      <find>StockId</find>
+      <find>Stock</find>
+      <find>CompanyModel</find>
+      <find>Chek</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Phone</replace>
+      <replace>Stock</replace>
+      <replace>StockId</replace>
+      <replace>Company</replace>
+      <replace>Check</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstMVC/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstMVC/ViewModels/IndexViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstMVC/Controllers/PhonesController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyFirstMVC/appsettings.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Seed/categories.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Seed/companies.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Seed/exchangeRate.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Models/PhoneOnStock.cs" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Seed/phonestock.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Models/ApplicationDbContext.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52b37c9e-3bca-46b5-bed6-a8b3da190275/console.sql" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Seed/phones.json" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/ViewModels/IndexViewModel.cs" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Models/Phone.cs" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Views/Stock/Index.cshtml" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Controllers/PhonesController.cs" />
+        <option value="$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="30" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MyFirstMVC" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="штву&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore-1.0/MyFirstMVC/MyFirstMVC/Views/Phones/Index.cshtml&#10;inde&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore-1.0/MyFirstMVC/MyFirstMVC/ViewModels/IndexViewModel.cs&#10;in&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Views/Phones/Index.cshtml&#10;зрщ&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Controllers/PhonesController.cs&#10;Pho&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Controllers/PhonesController.cs&#10;pho&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Controllers/PhonesController.cs&#10;ind&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Views/Phones/Index.cshtml&#10;id&#9;null&#9;null&#10;ph&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Models/Phone.cs&#10;De&#9;null&#9;null&#10;index&#9;FILE&#9;file://D:/MailCloud/Git repo mail/phonesstore2/MyFirstMVC/MyFirstMVC/Views/Phones/Index.cshtml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFirstMVC" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyFirstMVC/MyFirstMVC.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c11dd7-fa64-47f2-bf17-09469f8272cd" name="Default Changelist" comment="" />
+      <created>1537804768586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537804768586</updated>
+      <workItem from="1537804788256" duration="1483000" />
+      <workItem from="1537939025637" duration="10720000" />
+      <workItem from="1537962784686" duration="12331000" />
+      <workItem from="1538025292032" duration="3054000" />
+      <workItem from="1538028570061" duration="3462000" />
+      <workItem from="1538036582136" duration="2208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33258000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32725322" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32914045" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49946696" visible="true" weight="0.32725322" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50053304" side_tool="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32725322" />
+      <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="bottom" id="Quokka" order="18" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18176973" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="phone" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Categories/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Categories/Details.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Categories/Delete.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Categories/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Categories/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926055637_Add Category, Phones, Companies in json files.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/categories.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/Order.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/ExchangeRate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/companies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926061740_Change Phones price json.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926061444_Change ExchangeRate json.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/ApplicationDbContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926070013_Add phonestock.json.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/exchangeRate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/phonestock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Stock/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926135822_Add Fild Bool In Phone.cs" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/Category.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52b37c9e-3bca-46b5-bed6-a8b3da190275/console.sql" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/Stock.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926145321_Delete fild check).cs" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926145747_Delete fild check from Phone.cs).cs" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926145953_Delete fild check).cs" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926142653_Add fild Chek json true.cs" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/PhoneOnStock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Controllers/StockController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="34" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://52b37c9e-3bca-46b5-bed6-a8b3da190275/database/master/schema/sys/view/identity_columns" />
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180927055257_Replase fild Quntity from Phones int or bool.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/Company.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Stock/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/stocks.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Models/Phone.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Seed/phones.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Migrations/20180926150126_Delete fild check).cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Controllers/PhonesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <marker date="1538038511376" expanded="false" signature="6:261" ph="..." />
+            <marker date="1538038511376" expanded="true" signature="295:6503" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="344:6501" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="469:521" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="633:2057" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="901:1101" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="1164:1337" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="1361:1507" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="1392:1493" ph="/* что сюда писать не понимаю!!! ... */" />
+            <marker date="1538038511376" expanded="true" signature="1533:1879" ph="/* Цена от до не успеваю сделать, прбовал  два инпута сделать Max Min но как их связать с ... */" />
+            <marker date="1538038511376" expanded="true" signature="2127:2337" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="2430:2812" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="2468:2531" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="2706:2769" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="2881:3014" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="3024:3233" ph="/* POST: Phones/Create ... */" />
+            <marker date="1538038511376" expanded="true" signature="3403:3768" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="3449:3621" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="3854:4258" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="3892:3955" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="4048:4111" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="4268:4477" ph="/* POST: Phones/Edit/5 ... */" />
+            <marker date="1538038511376" expanded="true" signature="4653:5506" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="4695:4758" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="4795:5359" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="4829:4964" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5017:5288" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5083:5170" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5195:5270" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5596:5978" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5634:5697" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="5872:5935" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="6153:6376" ph="{...}" />
+            <marker date="1538038511376" expanded="true" signature="6418:6495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/ViewModels/IndexViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1538038511537" expanded="false" signature="6:121" ph="..." />
+            <marker date="1538038511537" expanded="true" signature="154:516" ph="{...}" />
+            <marker date="1538038511537" expanded="true" signature="188:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          <folding>
+            <marker date="1538038511562" expanded="true" signature="16:3668" ph="&lt;html.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="23:844" ph="&lt;head.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="192:382" ph="&lt;environment.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="387:836" ph="&lt;environment.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="845:3660" ph="&lt;body.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="856:2220" ph="&lt;nav.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="917:2209" ph="&lt;div.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="953:1468" ph="&lt;div.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="997:1341" ph="&lt;button.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="1481:2194" ph="&lt;div.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="1536:2175" ph="&lt;ul.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="2272:2435" ph="&lt;div.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="2354:2424" ph="&lt;footer.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="2441:2695" ph="&lt;environment.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="2700:3604" ph="&lt;environment.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="2744:3092" ph="&lt;script.../&gt;" />
+            <marker date="1538038511562" expanded="true" signature="3101:3510" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyFirstMVC/Views/Phones/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <marker date="1538038844770" expanded="false" signature="7:72" ph="..." />
+            <marker date="1538038844770" expanded="true" signature="98:140" ph="@..." />
+            <marker date="1538038844770" expanded="true" signature="149:788" ph="@..." />
+            <marker date="1538038844770" expanded="true" signature="208:788" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="292:734" ph="&lt;select.../&gt;" />
+            <marker date="1538038844770" expanded="true" signature="373:720" ph="@..." />
+            <marker date="1538038844770" expanded="true" signature="415:720" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="495:604" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="621:710" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="797:1535" ph="@..." />
+            <marker date="1538038844770" expanded="true" signature="856:1535" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="863:1458" ph="&lt;table.../&gt;" />
+            <marker date="1538038844770" expanded="true" signature="909:1443" ph="@..." />
+            <marker date="1538038844770" expanded="true" signature="943:1443" ph="{...}" />
+            <marker date="1538038844770" expanded="true" signature="966:1433" ph="&lt;tr.../&gt;" />
+            <marker date="1538038844770" expanded="true" signature="1021:1100" ph="&lt;td.../&gt;" />
+            <marker date="1538038844770" expanded="true" signature="1118:1278" ph="&lt;td.../&gt;" />
+            <marker date="1538038844770" expanded="true" signature="1296:1414" ph="&lt;td.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
