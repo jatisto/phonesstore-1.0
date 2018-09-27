@@ -37,7 +37,7 @@
 
 <br/>
 
-@using (Html.BeginForm("check", "Phones", FormMethod.Get))
+@using (Html.BeginForm("Index", "Phones", FormMethod.Get))
 
 {
     <table class="table table-bordered">
@@ -48,7 +48,7 @@
 
                 <td>@p.Name</td>
                 <td>
-                    @Html.CheckBox("Checked", false)
+                    @Html.CheckBox("check", false)
                 </td>
 
                 <td>
