@@ -21,6 +21,6 @@ namespace MyFirstMVC.Models
 
         public IEnumerable<Order> Orders { get; set; }
         
-        [Display(Name = "Количество")] public bool Quantity { get; set; }
+        [Display(Name = "Количество")] public int Quantity { get; set; }
     }
 }

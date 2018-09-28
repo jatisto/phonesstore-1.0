@@ -50,6 +50,8 @@
           <e p="20180926151026_Add fild Quantity in Phone.cs.Designer.cs" t="Include" />
           <e p="20180927055257_Replase fild Quntity from Phones int or bool.cs" t="Include" />
           <e p="20180927055257_Replase fild Quntity from Phones int or bool.Designer.cs" t="Include" />
+          <e p="20180928055651_Add property quantity rfom phones.cs.cs" t="Include" />
+          <e p="20180928055651_Add property quantity rfom phones.cs.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

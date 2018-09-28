@@ -47,10 +47,7 @@
             <tr>
 
                 <td>@p.Name</td>
-                <td>
-                    @Html.CheckBox("check", false)
-                </td>
-
+               
                 <td>
                     <a asp-area="" asp-controller="Phones" asp-action="Index" asp-route-companyId="@p.CompanyId">@p.Company?.Name</a>
                 </td>
@@ -68,6 +65,7 @@
 
 
     </table>
-    <input type="submit" class="btn btn-success" value="Checkbox Button"/>
+    @Html.CheckBox("check", false)
+    <input type="submit" class="btn btn-success" value="Есть в наличии"/>
 }
 
