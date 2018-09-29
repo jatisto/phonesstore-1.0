@@ -106,7 +106,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("    <select name=\"companyId\" class=\"form-control\">\r\n        ");
             EndContext();
             BeginContext(367, 17, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6360fc58a89f4e82813a363da2cd31b2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33cc579b52544e7c9de6544212fcd479", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -134,7 +134,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("                ");
             EndContext();
             BeginContext(551, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "539c121460744f1d95947da45f9aa52b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b3bdb4e691254f6881425fcfa6ff8a4d", async() => {
                 BeginContext(597, 9, false);
 #line 26 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                                         Write(comp.Name);
@@ -178,7 +178,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("                ");
             EndContext();
             BeginContext(681, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "06b4b59bb10240f5a3f1e3a6a0481cfc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55f2cbd0f1a4445b953d97d7573932a7", async() => {
                 BeginContext(707, 9, false);
 #line 30 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                     Write(comp.Name);
@@ -260,7 +260,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("</td>\r\n               \r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1113, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7edda54bd3eb4a6393b0b20ef832c4da", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08fa744bb98e4a2f94399b35f3fd9159", async() => {
                 BeginContext(1207, 15, false);
 #line 52 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                                                                                             Write(p.Company?.Name);

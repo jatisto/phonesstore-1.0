@@ -26,10 +26,13 @@ namespace MyFirstMVC.Models
         [DataType(DataType.DateTime)]
         [Display(Name = "Дата создания компании")]
         public DateTime _dataCreateCompany { get; set; }
+        
 
         public int? _CompanyId { get; set; }
         public Company _Company { get; set; }
 
+        public string _mode { get; set; }
+        
         public IEnumerable<Company> CompaniesEnumerable { get; set; }
 
         public IEnumerable<Phone> Phones { get; set; }

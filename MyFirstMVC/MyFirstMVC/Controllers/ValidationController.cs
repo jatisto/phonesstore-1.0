@@ -23,7 +23,7 @@ namespace MyFirstMVC.Controllers
             List<Company> companies = _context.Companies.ToList();
 
             // var companies = _context.Companies.Include(c => c._Company);
-
+            
             foreach (var company in companies)
             {
                 if (company.Name == name)

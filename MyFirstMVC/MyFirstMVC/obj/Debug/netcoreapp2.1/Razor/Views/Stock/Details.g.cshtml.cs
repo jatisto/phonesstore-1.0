@@ -95,7 +95,7 @@ Write(Model.Name);
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(356, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66425b9028094470909555ab17fc8b7a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9308075ba084eb1b7f67cea4990abb9", async() => {
                 BeginContext(402, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -130,7 +130,7 @@ Write(Model.Name);
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(418, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf150ad0da3b4381b88690bd3021bb2a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6923fd7e6b754343bf47b3e039f9fc2d", async() => {
                 BeginContext(468, 7, true);
                 WriteLiteral("Скачать");
                 EndContext();
@@ -165,7 +165,7 @@ Write(Model.Name);
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(487, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6cde6c2f4774481b37ae7ce6a5fa631", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20e8a99fd5044728898e556e10593db7", async() => {
                 BeginContext(509, 15, true);
                 WriteLiteral("Показать список");
                 EndContext();
