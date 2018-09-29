@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180929083051_create property _CompanyId")]
+    partial class createproperty_CompanyId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +50,9 @@ namespace MyFirstMVC.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(15);
+                    b.Property<string>("Name");
 
                     b.Property<int?>("_CompanyId");
-
-                    b.Property<DateTime>("_dataCreateCompany");
-
-                    b.Property<string>("_emailCompany");
 
                     b.HasKey("Id");
 
@@ -65,15 +61,15 @@ namespace MyFirstMVC.Migrations
                     b.ToTable("Companies");
 
                     b.HasData(
-                        new { Id = 1, Name = "Apple", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
-                        new { Id = 2, Name = "Samsung", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
-                        new { Id = 3, Name = "Nokia", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 4, Name = "Xiaomi", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 5, Name = "LG", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 6, Name = "Huawei", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 7, Name = "Sony", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 8, Name = "BlackBerry", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 9, Name = "Philips", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                        new { Id = 1, Name = "Apple" },
+                        new { Id = 2, Name = "Samsung" },
+                        new { Id = 3, Name = "Nokia" },
+                        new { Id = 4, Name = "Xiaomi" },
+                        new { Id = 5, Name = "LG" },
+                        new { Id = 6, Name = "Huawei" },
+                        new { Id = 7, Name = "Sony" },
+                        new { Id = 8, Name = "BlackBerry" },
+                        new { Id = 9, Name = "Philips" }
                     );
                 });
 
@@ -221,7 +217,7 @@ namespace MyFirstMVC.Migrations
             modelBuilder.Entity("MyFirstMVC.Models.Company", b =>
                 {
                     b.HasOne("MyFirstMVC.Models.Company", "_Company")
-                        .WithMany("CompaniesEnumerable")
+                        .WithMany()
                         .HasForeignKey("_CompanyId");
                 });
 

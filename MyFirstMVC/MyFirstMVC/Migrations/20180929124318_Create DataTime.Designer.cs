@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180929124318_Create DataTime")]
+    partial class CreateDataTime
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,7 +56,7 @@ namespace MyFirstMVC.Migrations
 
                     b.Property<int?>("_CompanyId");
 
-                    b.Property<DateTime>("_dataCreateCompany");
+                    b.Property<DateTime>("_dataCreatCompany");
 
                     b.Property<string>("_emailCompany");
 
@@ -65,15 +67,15 @@ namespace MyFirstMVC.Migrations
                     b.ToTable("Companies");
 
                     b.HasData(
-                        new { Id = 1, Name = "Apple", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
-                        new { Id = 2, Name = "Samsung", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
-                        new { Id = 3, Name = "Nokia", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 4, Name = "Xiaomi", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 5, Name = "LG", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 6, Name = "Huawei", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 7, Name = "Sony", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 8, Name = "BlackBerry", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                        new { Id = 9, Name = "Philips", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                        new { Id = 1, Name = "Apple", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 2, Name = "Samsung", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 3, Name = "Nokia", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 4, Name = "Xiaomi", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 5, Name = "LG", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 6, Name = "Huawei", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 7, Name = "Sony", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 8, Name = "BlackBerry", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 9, Name = "Philips", _dataCreatCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                     );
                 });
 

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180929122613_change datatime Company")]
+    partial class changedatatimeCompany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -65,8 +67,8 @@ namespace MyFirstMVC.Migrations
                     b.ToTable("Companies");
 
                     b.HasData(
-                        new { Id = 1, Name = "Apple", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
-                        new { Id = 2, Name = "Samsung", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 1, Name = "Apple", _dataCreateCompany = new DateTime(1999, 1, 1, 1, 1, 1, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 2, Name = "Samsung", _dataCreateCompany = new DateTime(1198, 1, 1, 1, 1, 1, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
                         new { Id = 3, Name = "Nokia", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
                         new { Id = 4, Name = "Xiaomi", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
                         new { Id = 5, Name = "LG", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
