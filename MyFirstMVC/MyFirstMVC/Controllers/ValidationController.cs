@@ -24,7 +24,7 @@ namespace MyFirstMVC.Controllers
 
             // var companies = _context.Companies.Include(c => c._Company);
 
-            if (companyM._mode == "Create")
+            if (companyM._mode != "Edit")
             {
                 foreach (var company in companies)
                 {
@@ -34,7 +34,7 @@ namespace MyFirstMVC.Controllers
                     }
                 }
             }
-
+            
 
             return Json(true);
         }
