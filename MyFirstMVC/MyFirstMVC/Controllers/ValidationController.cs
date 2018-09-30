@@ -18,23 +18,24 @@ namespace MyFirstMVC.Controllers
         }
 
         [AcceptVerbs("Get", "Post")]
-        public IActionResult CheckName(string name, Company companyM)
+        public IActionResult CheckName(string name, Company companyM, string mode)
         {
             List<Company> companies = _context.Companies.ToList();
 
             // var companies = _context.Companies.Include(c => c._Company);
 
-            if (companyM._mode != "Edit")
+            if (mode == "Edit")
             {
-                foreach (var company in companies)
+                return Json(true);
+            }
+
+            foreach (var company in companies)
+            {
+                if (company.Name == name)
                 {
-                    if (company.Name == name)
-                    {
-                        return Json(false);
-                    }
+                    return Json(false);
                 }
             }
-            
 
             return Json(true);
         }
