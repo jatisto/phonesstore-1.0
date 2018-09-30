@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MyFirstMVC.Controllers;
 
 namespace MyFirstMVC.ViewModels
 {
@@ -14,5 +15,6 @@ namespace MyFirstMVC.ViewModels
         public IEnumerable<Company> Companies { get; set; }
         public string Name { get; set; }
         public bool _quantity { get; set; }
+        public IEnumerable<RatingModel> RatingModels { get; set; }
     }
 }

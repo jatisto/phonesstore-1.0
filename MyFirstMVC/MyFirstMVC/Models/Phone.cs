@@ -22,5 +22,8 @@ namespace MyFirstMVC.Models
         public IEnumerable<Order> Orders { get; set; }
         
         [Display(Name = "Количество")] public int Quantity { get; set; }
+        
+        public string _comments { get; set; }
+        
     }
 }
