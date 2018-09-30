@@ -110,8 +110,13 @@ Write(Html.TextBox("name", Model.Name));
             BeginContext(338, 60, true);
             WriteLiteral("    <select name=\"companyId\" class=\"form-control\">\r\n        ");
             EndContext();
+<<<<<<< HEAD
             BeginContext(398, 17, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9dac497df4ac4887ac01e828550ac68a", async() => {
+=======
+            BeginContext(367, 17, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ce881c024c0497286bd2678e5a04f1f", async() => {
+>>>>>>> feature52.1
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -138,10 +143,17 @@ Write(Html.TextBox("name", Model.Name));
             BeginContext(566, 16, true);
             WriteLiteral("                ");
             EndContext();
+<<<<<<< HEAD
             BeginContext(582, 64, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85dcfd3cc7c84b0a9381e54481f61ad3", async() => {
                 BeginContext(628, 9, false);
 #line 27 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+=======
+            BeginContext(551, 64, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b334ee225ca64b3992155676890dc15e", async() => {
+                BeginContext(597, 9, false);
+#line 26 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+>>>>>>> feature52.1
                                                         Write(comp.Name);
 
 #line default
@@ -182,10 +194,17 @@ Write(Html.TextBox("name", Model.Name));
             BeginContext(696, 16, true);
             WriteLiteral("                ");
             EndContext();
+<<<<<<< HEAD
             BeginContext(712, 44, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11bb75c9f6d54ec1ae769148d961316c", async() => {
                 BeginContext(738, 9, false);
 #line 31 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+=======
+            BeginContext(681, 44, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "520b484072314f71a79a28fe1a1bffd4", async() => {
+                BeginContext(707, 9, false);
+#line 30 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+>>>>>>> feature52.1
                                     Write(comp.Name);
 
 #line default
@@ -339,10 +358,17 @@ Write(Html.TextBox("name", Model.Name));
             BeginContext(1585, 66, true);
             WriteLiteral("</td>\r\n               \r\n                <td>\r\n                    ");
             EndContext();
+<<<<<<< HEAD
             BeginContext(1651, 113, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a59bfb89964c4bd68584ebaba506c1a5", async() => {
                 BeginContext(1745, 15, false);
 #line 72 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+=======
+            BeginContext(1113, 113, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "369e5767a3974eaab3edf74966bd1d18", async() => {
+                BeginContext(1207, 15, false);
+#line 52 "M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
+>>>>>>> feature52.1
                                                                                                             Write(p.Company?.Name);
 
 #line default

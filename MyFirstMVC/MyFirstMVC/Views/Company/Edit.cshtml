@@ -1,41 +1,43 @@
-@model MyFirstMVC.Models.Company
+@model Company
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
-<h2>Create</h2>
+<h2>Edit</h2>
 
-<h4>Category</h4>
+<h4>Company</h4>
 <hr/>
-
-@using (Html.BeginForm("Create", "Company", FormMethod.Post))
+@using (Html.BeginForm("Edit", "Company", FormMethod.Post))
 {
-    @Html.HiddenFor(x => x._mode, "Create")
+    @Html.HiddenFor(x => x._mode, "Edit")
     <div class="row">
         <div class="col-md-4">
-            <form asp-action="Create">
+            <form asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id"/>
                 <div class="form-group">
                     <label asp-for="Name" class="control-label"></label>
                     <input asp-for="Name" class="form-control"/>
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
-                @* Email *@
                 <div class="form-group">
                     <label asp-for="_emailCompany" class="control-label"></label>
                     <input asp-for="_emailCompany" class="form-control"/>
                     <span asp-validation-for="_emailCompany" class="text-danger"></span>
                 </div>
-                @* Data *@
                 <div class="form-group">
-                    <label asp-for="_dataCreateCompany"  class="control-label"></label>
+                    <label asp-for="_dataCreateCompany" class="control-label"></label>
                     <input asp-for="_dataCreateCompany" class="form-control"/>
                     <span asp-validation-for="_dataCreateCompany" class="text-danger"></span>
                 </div>
-
                 <div class="form-group">
-                    <input type="submit" type="hidden" name="Mode" value="Create" class="btn btn-default"/>
+                    <label asp-for="_CompanyId" class="control-label"></label>
+                    <select asp-for="_CompanyId" class="form-control" asp-items="ViewBag._CompanyId"></select>
+                    <span asp-validation-for="_CompanyId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" type="hidden" name="Mode" value="Save" class="btn btn-default"/>
                 </div>
             </form>
         </div>
@@ -43,23 +45,10 @@
 
     <div>
         <a asp-action="Index">Back to List</a>
-    </div>
-
+    </div> 
 }
+
 
 @section Scripts {
     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-
-</div>
-</body>
-</html>

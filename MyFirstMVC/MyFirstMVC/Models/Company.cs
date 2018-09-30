@@ -14,7 +14,11 @@ namespace MyFirstMVC.Models
 
         [Required]
         [StringLength(15, MinimumLength = 3)]
+<<<<<<< HEAD
         [Remote(action: "CheckName", controller: "Validation", ErrorMessage = "Такое имя уже существует")]
+=======
+        [Remote(action: "CheckName", controller: "Validation", ErrorMessage = "Эй! Уф, нэ пеши сюда ето имя:-[ Оно уже есь же, эсь жи!!")]
+>>>>>>> feature52.1
         [Display(Name = "Название компании")]
         public string Name { get; set; }
 
@@ -26,10 +30,13 @@ namespace MyFirstMVC.Models
         [DataType(DataType.DateTime)]
         [Display(Name = "Дата создания компании")]
         public DateTime _dataCreateCompany { get; set; }
+        
 
         public int? _CompanyId { get; set; }
         public Company _Company { get; set; }
 
+        public string _mode { get; set; }
+        
         public IEnumerable<Company> CompaniesEnumerable { get; set; }
 
         public IEnumerable<Phone> Phones { get; set; }
