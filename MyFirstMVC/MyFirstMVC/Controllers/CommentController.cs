@@ -21,8 +21,8 @@ namespace MyFirstMVC.Controllers
         // GET
         public async Task<IActionResult> Index()
         {
-            var commInclude = _context.Comments.Include(c => c.Phone);
-            return View(await commInclude.ToListAsync());
+            var comments = _context.Comments.Include(c => c.Phone);
+            return View(await comments.ToListAsync());
         }
         
                 

@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\MailCloudW\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+      "projectUniqueName": "C:\\Users\\evgen\\Git_Folder\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
       "projectName": "MyFirstMVC",
-      "projectPath": "M:\\MailCloudW\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+      "projectPath": "C:\\Users\\evgen\\Git_Folder\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
       "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
-      "outputPath": "M:\\MailCloudW\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
+      "outputPath": "C:\\Users\\evgen\\Git_Folder\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12265,6 +12265,7 @@
             "autoReferenced": true
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

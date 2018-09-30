@@ -8,7 +8,7 @@ namespace MyFirstMVC.Models
         public int Id { get; set; }
         [Display(Name = "Отзывы")] public string _comments { get; set; }
 
-        [Display(Name = "Id Телефона")] public int? PhoneId { get; set; }
+        [Display(Name = "Id Phone")] public int? PhoneId { get; set; }
         public Phone Phone { get; set; }
     }
 }

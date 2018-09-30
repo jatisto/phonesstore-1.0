@@ -8,22 +8,35 @@
 <h2>Комментарии</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create Comment</a>
 </p>
 <table class="table">
-
-
     <thead>
-
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.PhoneId)
-        </th>
         <th>
             @Html.DisplayNameFor(model => model._comments)
         </th>
-        <th></th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneId)
+        </th>
+
     </tr>
     </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item._comments)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneId)
+            </td>
+            
+        </tr>
+    }
+    </tbody>
 
 </table>
