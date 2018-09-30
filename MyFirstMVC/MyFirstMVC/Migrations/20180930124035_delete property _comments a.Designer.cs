@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180930124035_delete property _comments a")]
+    partial class deleteproperty_commentsa
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,23 +53,6 @@ namespace MyFirstMVC.Migrations
                         new { Id = 2, Name = "Android OS" },
                         new { Id = 3, Name = "BlackBerry OS" }
                     );
-                });
-
-            modelBuilder.Entity("MyFirstMVC.Models.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("PhoneId");
-
-                    b.Property<string>("_comments");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PhoneId");
-
-                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("MyFirstMVC.Models.Company", b =>
@@ -246,13 +231,6 @@ namespace MyFirstMVC.Migrations
                         .WithMany("SubCategories")
                         .HasForeignKey("ParentCategoryId")
                         .OnDelete(DeleteBehavior.Restrict);
-                });
-
-            modelBuilder.Entity("MyFirstMVC.Models.Comment", b =>
-                {
-                    b.HasOne("MyFirstMVC.Models.Phone", "Phone")
-                        .WithMany()
-                        .HasForeignKey("PhoneId");
                 });
 
             modelBuilder.Entity("MyFirstMVC.Models.Company", b =>

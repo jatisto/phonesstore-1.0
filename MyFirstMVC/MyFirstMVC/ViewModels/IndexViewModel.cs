@@ -16,5 +16,6 @@ namespace MyFirstMVC.ViewModels
         public string Name { get; set; }
         public bool _quantity { get; set; }
         public IEnumerable<RatingModel> RatingModels { get; set; }
+        
     }
 }

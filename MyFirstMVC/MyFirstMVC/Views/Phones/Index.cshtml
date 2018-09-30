@@ -17,7 +17,7 @@
 {
     @Html.Label("Name", "Модель")
     @Html.TextBox("name", Model.Name)
-    
+
     <select name="companyId" class="form-control">
         <option></option>
         @foreach (Company comp in Model.Companies)
@@ -31,26 +31,24 @@
                 <option value="@comp.Id">@comp.Name</option>
             }
         }
-      
+
+        
+
     </select>
 
     <input type="submit" class="btn btn-success"/>
-    
-    <p>
-        <br/>
-        <label>Комментарий:</label><br/>
-        <textarea name="comment"></textarea>
-        <br/>
-    </p>
-    <input type="submit" class="btn btn-success" value="Comment"/>
-    
+
+@*     @Html.TextArea("_comments", null, new { @class = "form-control" })  *@
+@*     <input type="submit" class="btn btn-success" value="Comment"/> *@
+
+
     <select name="Rating" class="form-control">
         <option></option>
-@*         @foreach (RatingModel ratingModel in Model.RatingModels) *@
-@*         { *@
-@*             <option value="@ratingModel.Id">@ratingModel.Rating()</option> *@
-@*         } *@
-@*        *@
+        @*         @foreach (RatingModel ratingModel in Model.RatingModels) *@
+        @*         { *@
+        @*             <option value="@ratingModel.Id">@ratingModel.Rating()</option> *@
+        @*         } *@
+        @*        *@
     </select>
 }
 
@@ -67,7 +65,7 @@
             <tr>
 
                 <td>@p.Name</td>
-               
+
                 <td>
                     <a asp-area="" asp-controller="Phones" asp-action="Index" asp-route-companyId="@p.CompanyId">@p.Company?.Name</a>
                 </td>
@@ -78,11 +76,11 @@
                     @(p.Price * ViewBag.RateKgs) сом
 
                 </td>
-
+                
+       
             </tr>
         }
 
 
     </table>
 }
-

@@ -19,6 +19,7 @@ namespace MyFirstMVC.Models
         public DbSet<Company> Companies { get; set; }
         public DbSet<ExchangeRate> ExchangeRates { get; set; }
         public DbSet<RatingModel> RatingModelsDB { get; set; }
+        public DbSet<Comment> Comments { get; set; }
         
         
         public ApplicationDbContext(DbContextOptions options) : base(options)

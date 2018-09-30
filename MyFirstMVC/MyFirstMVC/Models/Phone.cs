@@ -9,7 +9,7 @@ namespace MyFirstMVC.Models
     public class Phone
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        [Display(Name = "Имя")] public string Name { get; set; }
         [Display(Name = "Цена")] public double Price { get; set; }
         [Display(Name = "Компания")] public Company Company { get; set; }
         public int CompanyId { get; set; }
@@ -20,10 +20,8 @@ namespace MyFirstMVC.Models
         public IEnumerable<PhoneOnStock> PhoneOnStocks { get; set; }
 
         public IEnumerable<Order> Orders { get; set; }
-        
+
         [Display(Name = "Количество")] public int Quantity { get; set; }
-        
-        public string _comments { get; set; }
         
     }
 }

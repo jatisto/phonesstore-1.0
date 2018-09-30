@@ -246,3 +246,5 @@ M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netc
 M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Company\Create.g.cshtml.cs
 M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Company\Index.g.cshtml.cs
 M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Company\Edit.g.cshtml.cs
+M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Comment\Index.g.cshtml.cs
+M:\MailCloudW\Git repo mail\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Comment\Create.g.cshtml.cs
