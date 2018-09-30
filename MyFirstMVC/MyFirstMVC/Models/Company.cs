@@ -14,7 +14,7 @@ namespace MyFirstMVC.Models
 
         [Required]
         [StringLength(15, MinimumLength = 3)]
-        [Remote(action: "CheckName", controller: "ValidationController", ErrorMessage = "Такое имя уже существует")]
+        [Remote(action: "CheckName", controller: "Validation", ErrorMessage = "Такое имя уже существует")]
         [Display(Name = "Название компании")]
         public string Name { get; set; }
 
