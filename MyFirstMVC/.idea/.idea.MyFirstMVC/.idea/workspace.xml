@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c11dd7-fa64-47f2-bf17-09469f8272cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstMVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstMVC/bin/Debug/netcoreapp2.1/MyFirstMVC.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstMVC/obj/Debug/netcoreapp2.1/MyFirstMVC.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="33c11dd7-fa64-47f2-bf17-09469f8272cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -649,12 +643,12 @@
       <workItem from="1538238378318" duration="4728000" />
       <workItem from="1538247956465" duration="882000" />
       <workItem from="1538250635559" duration="1202000" />
-      <workItem from="1538277972574" duration="2042000" />
+      <workItem from="1538277972574" duration="3418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75288000" />
+    <option name="totallyTimeSpent" value="76664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
