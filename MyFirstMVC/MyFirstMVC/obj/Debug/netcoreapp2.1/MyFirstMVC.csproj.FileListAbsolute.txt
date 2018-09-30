@@ -302,3 +302,5 @@ C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcor
 C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\MyFirstMVC.dll
 C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\MyFirstMVC.pdb
 C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\MyFirstMVC.csproj.CopyComplete
+C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Rating\Index.g.cshtml.cs
+C:\Users\evgen\Git_Folder\phonesstore-1.0\MyFirstMVC\MyFirstMVC\obj\Debug\netcoreapp2.1\Razor\Views\Rating\Create.g.cshtml.cs

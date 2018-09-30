@@ -25,4 +25,8 @@
     <Folder Include="Pages" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\RatingModel\Index.cshtml" />
+  </ItemGroup>
+
 </Project>

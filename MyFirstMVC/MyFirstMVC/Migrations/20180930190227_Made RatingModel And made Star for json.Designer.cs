@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180930190227_Made RatingModel And made Star for json")]
+    partial class MadeRatingModelAndmadeStarforjson
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -216,13 +218,9 @@ namespace MyFirstMVC.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("PhoneId");
-
                     b.Property<string>("Star");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PhoneId");
 
                     b.ToTable("RatingModels");
 
@@ -308,13 +306,6 @@ namespace MyFirstMVC.Migrations
                         .WithMany("PhoneOnStocks")
                         .HasForeignKey("StockId")
                         .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("MyFirstMVC.Models.RatingModel", b =>
-                {
-                    b.HasOne("MyFirstMVC.Models.Phone", "Phone")
-                        .WithMany()
-                        .HasForeignKey("PhoneId");
                 });
 #pragma warning restore 612, 618
         }

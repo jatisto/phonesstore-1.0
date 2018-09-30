@@ -18,7 +18,8 @@ namespace MyFirstMVC.Models
         public DbSet<PhoneOnStock> PhonesOnStocks { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<ExchangeRate> ExchangeRates { get; set; }
-        public DbSet<RatingModel> RatingModelsDB { get; set; }
+        public DbSet<RatingModel> RatingModels { get; set; }
+        
         public DbSet<Comment> Comments { get; set; }
         
         
@@ -105,7 +106,9 @@ namespace MyFirstMVC.Models
             modelBuilder.Entity<PhoneOnStock>()
                 .HasData(JsonConvert.DeserializeObject<PhoneOnStock[]>(File.ReadAllText("Seed/phonestock.json")));
 
-            
+            modelBuilder.Entity<RatingModel>()
+                .HasData(JsonConvert.DeserializeObject<RatingModel[]>(File.ReadAllText("Seed/Star.json")));
+
             
         }
     }
