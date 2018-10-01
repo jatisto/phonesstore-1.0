@@ -1,0 +1,42 @@
+@model IEnumerable<MyFirstMVC.Models.RatingModel>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Rating</h2>
+
+<p>
+    <a asp-action="Create">Поставить оценку</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Star)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneId)
+        </th>
+
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Star)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneId)
+            </td>
+
+        </tr>
+    }
+    </tbody>
+
+</table>

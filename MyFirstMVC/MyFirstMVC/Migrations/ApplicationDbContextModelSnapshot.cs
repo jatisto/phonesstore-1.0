@@ -15,7 +15,7 @@ namespace MyFirstMVC.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
+                .HasAnnotation("ProductVersion", "2.1.3-rtm-32065")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -42,28 +42,57 @@ namespace MyFirstMVC.Migrations
                     );
                 });
 
+            modelBuilder.Entity("MyFirstMVC.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("PhoneId");
+
+                    b.Property<string>("_comments");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PhoneId");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("MyFirstMVC.Models.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Name");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(15);
+
+                    b.Property<int?>("_CompanyId");
+
+                    b.Property<DateTime>("_dataCreateCompany");
+
+                    b.Property<string>("_emailCompany");
+
+                    b.Property<string>("_mode");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("_CompanyId");
 
                     b.ToTable("Companies");
 
                     b.HasData(
-                        new { Id = 1, Name = "Apple" },
-                        new { Id = 2, Name = "Samsung" },
-                        new { Id = 3, Name = "Nokia" },
-                        new { Id = 4, Name = "Xiaomi" },
-                        new { Id = 5, Name = "LG" },
-                        new { Id = 6, Name = "Huawei" },
-                        new { Id = 7, Name = "Sony" },
-                        new { Id = 8, Name = "BlackBerry" },
-                        new { Id = 9, Name = "Philips" }
+                        new { Id = 1, Name = "Apple", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 2, Name = "Samsung", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), _emailCompany = "support.apple@apple.com" },
+                        new { Id = 3, Name = "Nokia", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 4, Name = "Xiaomi", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 5, Name = "LG", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 6, Name = "Huawei", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 7, Name = "Sony", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 8, Name = "BlackBerry", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                        new { Id = 9, Name = "Philips", _dataCreateCompany = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                     );
                 });
 
@@ -181,6 +210,31 @@ namespace MyFirstMVC.Migrations
                     );
                 });
 
+            modelBuilder.Entity("MyFirstMVC.Models.RatingModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("PhoneId");
+
+                    b.Property<string>("Star");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PhoneId");
+
+                    b.ToTable("RatingModels");
+
+                    b.HasData(
+                        new { Id = 1, Star = "★" },
+                        new { Id = 2, Star = "★★" },
+                        new { Id = 3, Star = "★★★" },
+                        new { Id = 4, Star = "★★★★" },
+                        new { Id = 5, Star = "★★★★★" }
+                    );
+                });
+
             modelBuilder.Entity("MyFirstMVC.Models.Stock", b =>
                 {
                     b.Property<int>("Id")
@@ -206,6 +260,20 @@ namespace MyFirstMVC.Migrations
                         .WithMany("SubCategories")
                         .HasForeignKey("ParentCategoryId")
                         .OnDelete(DeleteBehavior.Restrict);
+                });
+
+            modelBuilder.Entity("MyFirstMVC.Models.Comment", b =>
+                {
+                    b.HasOne("MyFirstMVC.Models.Phone", "Phone")
+                        .WithMany()
+                        .HasForeignKey("PhoneId");
+                });
+
+            modelBuilder.Entity("MyFirstMVC.Models.Company", b =>
+                {
+                    b.HasOne("MyFirstMVC.Models.Company", "_Company")
+                        .WithMany("CompaniesEnumerable")
+                        .HasForeignKey("_CompanyId");
                 });
 
             modelBuilder.Entity("MyFirstMVC.Models.Order", b =>
@@ -240,6 +308,13 @@ namespace MyFirstMVC.Migrations
                         .WithMany("PhoneOnStocks")
                         .HasForeignKey("StockId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("MyFirstMVC.Models.RatingModel", b =>
+                {
+                    b.HasOne("MyFirstMVC.Models.Phone", "Phone")
+                        .WithMany()
+                        .HasForeignKey("PhoneId");
                 });
 #pragma warning restore 612, 618
         }

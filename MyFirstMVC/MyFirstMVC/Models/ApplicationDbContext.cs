@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using MyFirstMVC.Controllers;
 using Newtonsoft.Json;
 
 namespace MyFirstMVC.Models
@@ -17,6 +18,10 @@ namespace MyFirstMVC.Models
         public DbSet<PhoneOnStock> PhonesOnStocks { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<ExchangeRate> ExchangeRates { get; set; }
+        public DbSet<RatingModel> RatingModels { get; set; }
+        
+        public DbSet<Comment> Comments { get; set; }
+        
         
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
@@ -101,7 +106,9 @@ namespace MyFirstMVC.Models
             modelBuilder.Entity<PhoneOnStock>()
                 .HasData(JsonConvert.DeserializeObject<PhoneOnStock[]>(File.ReadAllText("Seed/phonestock.json")));
 
-            
+            modelBuilder.Entity<RatingModel>()
+                .HasData(JsonConvert.DeserializeObject<RatingModel[]>(File.ReadAllText("Seed/Star.json")));
+
             
         }
     }
