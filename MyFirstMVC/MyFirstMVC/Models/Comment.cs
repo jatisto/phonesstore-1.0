@@ -15,7 +15,7 @@ namespace MyFirstMVC.Models
         [Display(Name = "Отзывы")] 
         public string _comments { get; set; }
 
-        [Display(Name = "Id Phone")] public int? PhoneId { get; set; }
+        [Display(Name = "Телефон")] public int? PhoneId { get; set; }
         public Phone Phone { get; set; }
     }
 }

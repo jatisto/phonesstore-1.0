@@ -1,0 +1,22 @@
+[
+  {
+    "Id":1,
+    "_SymbolStar": "★"
+  },
+  {
+    "Id":2,
+    "_SymbolStar": "★★"
+  },
+  {
+    "Id":3,
+    "_SymbolStar": "★★★"
+  },
+  {
+    "Id":4,
+    "_SymbolStar": "★★★★"
+  },
+  {
+    "Id":5,
+    "_SymbolStar": "★★★★★"
+  }
+]

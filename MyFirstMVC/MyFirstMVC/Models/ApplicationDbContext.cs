@@ -19,6 +19,7 @@ namespace MyFirstMVC.Models
         public DbSet<Company> Companies { get; set; }
         public DbSet<ExchangeRate> ExchangeRates { get; set; }
         public DbSet<RatingModel> RatingModels { get; set; }
+        public DbSet<StarSymbol> StarSymbols { get; set; }
         
         public DbSet<Comment> Comments { get; set; }
         
@@ -109,7 +110,9 @@ namespace MyFirstMVC.Models
             modelBuilder.Entity<RatingModel>()
                 .HasData(JsonConvert.DeserializeObject<RatingModel[]>(File.ReadAllText("Seed/Star.json")));
 
-            
+            modelBuilder.Entity<RatingModel>()
+                .HasData(JsonConvert.DeserializeObject<RatingModel[]>(File.ReadAllText("Seed/starSymbol.json")));
+
         }
     }
 }

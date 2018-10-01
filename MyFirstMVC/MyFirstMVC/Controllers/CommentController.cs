@@ -10,22 +10,21 @@ namespace MyFirstMVC.Controllers
 {
     public class CommentController : Controller
     {
-        
         private readonly ApplicationDbContext _context;
 
         public CommentController(ApplicationDbContext context)
         {
             _context = context;
         }
-        
+
         // GET
         public async Task<IActionResult> Index()
         {
             var comments = _context.Comments.Include(c => c.Phone);
             return View(await comments.ToListAsync());
         }
-        
-                
+
+
         public IActionResult Create()
         {
             ViewData["PhoneId"] = new SelectList(_context.Phones, "Id", "Name");

@@ -1,22 +1,27 @@
 [
   {
-    "Id":1,
-    "Star": "★"
+    "Id": 1,
+    "PhoneId": 1,
+    "SymbolStarlId": 2
   },
   {
-    "Id":2,
-    "Star": "★★"
+    "Id": 2,
+    "PhoneId": 3,
+    "SymbolStarlId": 5
   },
   {
-    "Id":3,
-    "Star": "★★★"
+    "Id": 3,
+    "PhoneId": 3,
+    "SymbolStarlId": 4
   },
   {
-    "Id":4,
-    "Star": "★★★★"
+    "Id": 4,
+    "PhoneId": 7,
+    "SymbolStarlId": 1
   },
   {
-    "Id":5,
-    "Star": "★★★★★"
+    "Id": 5,
+    "PhoneId": 9,
+    "SymbolStarlId": 3
   }
 ]

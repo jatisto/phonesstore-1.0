@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using MyFirstMVC.Models;
 
 namespace MyFirstMVC.Controllers
@@ -15,18 +16,25 @@ namespace MyFirstMVC.Controllers
         {
             _context = context;
         }
+
         // GET
+//        public IActionResult Index()
+//        {
+//            List<RatingModel> ratingModels = _context.RatingModels.ToList();
+//            return View(ratingModels);
+//        }
+
         public IActionResult Index()
         {
-            List<RatingModel> ratingModels = _context.RatingModels.ToList();
-            return View(ratingModels);
+            var rating = _context.RatingModels.Include(r => r.Id == r.SymbolStarlId);
+            return View(rating);
         }
-        
+
         public IActionResult Create()
         {
-            ViewData["Star"] = new SelectList(_context.RatingModels, "Star", "Id");
+            ViewData["_starSymbolId"] = new SelectList(_context.StarSymbols, "id", "_starSymbolId");
             ViewData["PhoneId"] = new SelectList(_context.Phones, "Id", "Name");
-            
+
             return View();
         }
 
