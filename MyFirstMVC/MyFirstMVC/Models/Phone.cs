@@ -20,6 +20,8 @@ namespace MyFirstMVC.Models
         public IEnumerable<PhoneOnStock> PhoneOnStocks { get; set; }
 
         public IEnumerable<Order> Orders { get; set; }
+        public IEnumerable<Comment> Comments { get; set; }
+        public IEnumerable<RatingModel> RatingModels { get; set; }
 
         [Display(Name = "Количество")] public int Quantity { get; set; }
         
