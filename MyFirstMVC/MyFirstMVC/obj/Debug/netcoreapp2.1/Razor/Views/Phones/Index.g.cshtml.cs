@@ -111,7 +111,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("    <select name=\"companyId\" class=\"form-control\">\r\n        ");
             EndContext();
             BeginContext(394, 17, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b87d6a7f194486d9c3e2645308d16b4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "404a4dad5c024910804f83826670cf94", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -139,7 +139,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("                ");
             EndContext();
             BeginContext(578, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9f2fe2694e1a406bb1c083454098d99c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6a85e04c8c742e988de8c932d04560a", async() => {
                 BeginContext(624, 9, false);
 #line 27 "C:\home\Git_work\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                                         Write(comp.Name);
@@ -183,7 +183,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("                ");
             EndContext();
             BeginContext(708, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55fde9b54de045059e3700e0ae238ff0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba4b8497972448ada56a50083931cc63", async() => {
                 BeginContext(734, 9, false);
 #line 31 "C:\home\Git_work\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                     Write(comp.Name);
@@ -231,7 +231,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("    <select name=\"Rating\" class=\"form-control\">\r\n        ");
             EndContext();
             BeginContext(1079, 17, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "176c5f46085d46f6a7278e78854cd156", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69fbe99560ec440bb7a30a610a219872", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -288,7 +288,7 @@ Write(Html.TextBox("name", Model.Name));
             WriteLiteral("</td>\r\n\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1633, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee9ed9eb477c48cfab4ca43b1d4f6166", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47368add8c784fc08368c4b14825263f", async() => {
                 BeginContext(1727, 15, false);
 #line 70 "C:\home\Git_work\phonesstore-1.0\MyFirstMVC\MyFirstMVC\Views\Phones\Index.cshtml"
                                                                                                             Write(p.Company?.Name);
