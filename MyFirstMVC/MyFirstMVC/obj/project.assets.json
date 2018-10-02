@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joni\\.nuget\\packages\\": {},
+    "C:\\Users\\evgen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+      "projectUniqueName": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
       "projectName": "MyFirstMVC",
-      "projectPath": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
-      "packagesPath": "C:\\Users\\Joni\\.nuget\\packages\\",
-      "outputPath": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
+      "projectPath": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+      "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12265,6 +12265,7 @@
             "autoReferenced": true
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

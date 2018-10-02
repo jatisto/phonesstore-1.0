@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+    "projectUniqueName": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
     "projectName": "MyFirstMVC",
-    "projectPath": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
-    "outputPath": "D:\\MailCloud\\Git repo mail\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
+    "projectPath": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\MyFirstMVC.csproj",
+    "outputPath": "C:\\Users\\evgen\\GitFolderHome\\phonesstore-1.0\\MyFirstMVC\\MyFirstMVC\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
