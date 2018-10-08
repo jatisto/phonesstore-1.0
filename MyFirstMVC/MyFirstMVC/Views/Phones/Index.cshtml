@@ -16,7 +16,7 @@
 {
     @Html.Label("Name", "Модель")
     @Html.TextBox("name", Model.Name)
-    
+
     <select name="companyId" class="form-control">
         <option></option>
         @foreach (Company comp in Model.Companies)
@@ -42,12 +42,27 @@
 {
     <table class="table table-bordered">
 
+        <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone.Price)
+            </th>
+
+        </tr>
+        </thead>
+
         @foreach (Phone p in Model.Phones)
         {
             <tr>
 
                 <td>@p.Name</td>
-               
+
                 <td>
                     <a asp-area="" asp-controller="Phones" asp-action="Index" asp-route-companyId="@p.CompanyId">@p.Company?.Name</a>
                 </td>
@@ -65,4 +80,3 @@
 
     </table>
 }
-

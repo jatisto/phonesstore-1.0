@@ -9,7 +9,7 @@ namespace MyFirstMVC.Models
     public class Phone
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        [Display(Name = "Имя")]public string Name { get; set; }
         [Display(Name = "Цена")] public double Price { get; set; }
         [Display(Name = "Компания")] public Company Company { get; set; }
         public int CompanyId { get; set; }
